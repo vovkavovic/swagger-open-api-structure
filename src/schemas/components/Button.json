@@ -1,23 +1,23 @@
 {
     "UI.Button": {
-      "type": "object",
-      "description": "Un componente bottone riutilizzabile",
-      "properties": {
-        "variant": {
-          "type": "string",
-          "enum": ["primary", "secondary", "outline"],
-          "description": "Lo stile del bottone"
+        "type": "object",
+        "description": "Un componente bottone riutilizzabile",
+        "properties": {
+            "variant": {
+                "type": "string",
+                "enum": ["primary", "secondary", "outline"],
+                "description": "Lo stile del bottone"
+            },
+            "size": {
+                "type": "string",
+                "enum": ["sm", "md", "lg"],
+                "description": "La dimensione del bottone"
+            }
         },
-        "size": {
-          "type": "string",
-          "enum": ["sm", "md", "lg"],
-          "description": "La dimensione del bottone"
+        "example": {
+            "variant": "primary",
+            "size": "md",
+            "children": "Click me"
         }
-      },
-      "example": {
-        "variant": "primary",
-        "size": "md",
-        "children": "Click me"
-      }
     }
-  }
+}

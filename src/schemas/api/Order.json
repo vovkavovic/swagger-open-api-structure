@@ -1,17 +1,17 @@
 {
     "Api.Order": {
-      "type": "object",
-      "properties": {
-        "id": {
-          "type": "integer"
-        },
-        "userId": {
-          "type": "integer"
-        },
-        "status": {
-          "type": "string",
-          "enum": ["pending", "completed", "cancelled"]
+        "type": "object",
+        "properties": {
+            "id": {
+            "type": "integer"
+            },
+            "userId": {
+                "type": "integer"
+            },
+            "status": {
+                "type": "string",
+                "enum": ["pending", "completed", "cancelled"]
+            }
         }
-      }
     }
 }
