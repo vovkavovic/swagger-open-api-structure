@@ -1,0 +1,20 @@
+{
+    "UI.Card": {
+      "type": "object",
+      "description": "Componente card per contenuti",
+      "properties": {
+        "title": {
+          "type": "string",
+          "description": "Titolo della card"
+        },
+        "elevated": {
+          "type": "boolean",
+          "description": "Aggiunge elevazione"
+        }
+      },
+      "example": {
+        "title": "Example Card",
+        "elevated": true
+      }
+    }
+  }
